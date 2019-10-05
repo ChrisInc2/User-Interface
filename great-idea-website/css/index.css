@@ -66,11 +66,92 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	border: 1px solid red;
-	  
 
- 
-	
 	}
 	
+.navbar {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 900px;
+	position: relative;
+	border: 1px solid blue;	
+	}
 	
+.logo { 
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	padding: 1%;
+
+}
+
+.navigation {
+   margin: O auto;
+   width: 70%;
+   text-align: center;
+   text-decoration: none;
+   word-spacing: 50px;
 	
+}
+
+
+nav {
+  
+    display: inline-block;
+}
+
+.top-main {
+	position: relative;
+	margin-bottom: 25px;
+	border: 1px solid blue;
+	height: 150px;
+	width: 900px;
+
+}
+
+#features {
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+}
+
+#about {
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+	margin: 0px 50%;
+
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+}
+
+#services {
+	display: inline-block;
+	position: absolute;
+	width: 33.33%;
+	padding-left: 20px;
+}
+
+#product {
+	display: inline-block;
+	position: absolute;
+	width: 33.33%;	
+	padding-left: 20px;
+	margin-left: 33.33%;
+
+
+}
+
+#vision {
+    display: inline-block;
+	position: absolute;
+	width: 33.33%;
+	padding-left: 20px;
+	margin-left: 66.66%;
+
+}
